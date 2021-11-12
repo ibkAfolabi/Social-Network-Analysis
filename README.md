@@ -1,7 +1,7 @@
 # Social-Network-Analysis
 Using SNA for Marketing
 How to Improve Nigeria Business Profit through Data Science  Part 3 – Start-up Market Research Problem
- 
+  ![](images/picture1.png)
 The problem we are trying to solve in this tutorial is to help a start-up businesses do a social media based market research. The good thing about this tutorial is that even business that are on-going can also carry out this social media based market research to better reposition their business through online connections. 
 
 Problem Scenario
@@ -25,7 +25,7 @@ We will be solving the problem in this tutorial in two major stages.
 
 Prerequisites
 To create the network in R, we would need to install the following packages and include it in our R code like this;
-
+ ![](images/picture2.png)
  
 
 Snap shot of the data (twitter Ids have been made anonymous)
@@ -36,17 +36,17 @@ Below, a network is created from a data (sample picture above) which is stored i
  
 
 Output in R
- 
+  ![](imagespicture3.png)
 From the out of the network in R it is obvious that the network is not properly visualized and we might not be able to make much conclusion from it. Using the codes below, we can customize the network for better visualization in R. Below is just one way to better customize the network.
  
 
 Output in R
- 
+  ![](imagespicture4.png)
 Visualizing the Graph with Gephi
 There are other network visualization tools such as gephi, networkX, graphViz and so on. Below is  a  visualization of the network in Gephi. This offers more insight to the nature of the network.
  
 The network visualized using gephi (https://gephi.org)
-
+ ![](imagespicture5.png)
 Determine the major influencers by measuring the degree and Eigen vector centrality values.
 
 
@@ -56,7 +56,7 @@ To get the degree in R, we use the following:
  
 
 Output in R (snapshot of part of the output)
- 
+ ![](imagespicture6.png)
  
 
 Eigenvector Centrality
@@ -67,7 +67,7 @@ To get the Eigenvector Centrality in R, we use the following;
  
 
 Output in R (snapshot of part of the output)
- 
+ ![](imagespicture7.png)
 
 Conclusion - Back to our Problem Scenario
 From the above results, based on the data used (tweets downloaded in the month of October of a particular year), n64 and n46 twitter handle happens to be the most influential commenters on the anonymous bank twitter platform. This information can be used in various ways; we can decide as a start-up community bank, to establish a connection with these users since we know that these nodes are connected to other well connected nodes in the network (definition of eigen vector centrality) . This connection can be for purpose of marketing, since they are better positioned to reach more people interested in banking activities compared to the community bank that is just getting on board the social network platform. This information can also be followed up by the anonymous bank in question, if they were the one that carried out the research, also for marketing purposes.
