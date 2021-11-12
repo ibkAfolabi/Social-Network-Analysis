@@ -1,6 +1,8 @@
 # Social-Network-Analysis
 Using SNA for Marketing
 How to Improve Nigeria Business Profit through Data Science  Part 3 – Start-up Market Research Problem
+-------------------------------------------------------------------------------------------------------
+
  ![](images/picture1.png)
 The problem we are trying to solve in this tutorial is to help a start-up businesses do a social media based market research. The good thing about this tutorial is that even business that are on-going can also carry out this social media based market research to better reposition their business through online connections. 
 
